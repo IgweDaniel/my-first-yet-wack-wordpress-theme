@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BEA &mdash; Blog</title>
-  <link rel="stylesheet" href="/css/style.css" />
-  <link rel="shortcut icon" href="/svg/Favicon.ico" />
-  <link rel="stylesheet" href="https:/cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/locomotive-scroll.min.css" />
-  <script src="https:/cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/locomotive-scroll.min.js"></script>
-</head>
-
-<body>
-  <header class="header">
-    <div class="logo">
-      <img src="/svg/logowhite.svg" alt="logo" />
-    </div>
-    <nav>
-      <ul>
-        <li><a href="/index" class="nav__link">home</a></li>
-        <li><a href="/gallery" class="nav__link">gallery</a></li>
-        <li><a href="/blog" class="current nav__link">blog</a></li>
-        <li><a href="/about" class="nav__link">about</a></li>
-        <li><a href="/competition" class="nav__link">competition</a></li>
-      </ul>
-    </nav>
-    <div class="hamburger">
-      <div class="line line__1"></div>
-      <div class="line line__2"></div>
-      <div class="line line__3"></div>
-    </div>
-  </header>
+<?php get_header(); ?>
   <section class="container">
     <div class="page__content">
       <div class="page__content-header">
@@ -100,7 +67,7 @@
       </div>
     </div>
   </section>
-  <script src="/js/main.js"></script>
+  <script src="<?php echo get_template_directory_uri() ?>/js/main.js"></script>
 </body>
 
 </html>
