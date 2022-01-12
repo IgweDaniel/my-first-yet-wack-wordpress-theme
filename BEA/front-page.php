@@ -47,66 +47,17 @@
       <a href="/blog" class="showcase__header-link" data-scroll>Go To Blog ➡</a>
     </div>
     <div class="blog__post-container">
-      <article>
-        <header>
-          <div class="article__date" data-scroll>
-            <span class="day">25</span><span class="month">January</span><span class="year">2022</span>
-          </div>
-          <h2 class="article__title" data-scroll>
-            <a href="#" rel="bookmark">Road to SMVP Podcast – Episode Three – How to win a VIP
-              ticket?</a>
-          </h2>
-          <div class="separator" data-scroll>✻</div>
-        </header>
-        <section class="article__content">
-          <p data-scroll>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            atque deleniti aspernatur ipsum ex impedit, illum quibusdam
-            laudantium vero facere.
-          </p>
-        </section>
-        <a href="#" class="read__more" data-scroll>Read More</a>
-      </article>
-      <article>
-        <header>
-          <div class="article__date" data-scroll>
-            <span class="day">15</span><span class="month">March</span><span class="year">2022</span>
-          </div>
-          <h2 class="article__title" data-scroll>
-            <a href="#" rel="bookmark">Road to SMVP Podcast – Episode Three – How to win a VIP
-              ticket?</a>
-          </h2>
-          <div class="separator" data-scroll>✻</div>
-        </header>
-        <section class="article__content">
-          <p data-scroll>
-            Want to win tickets to the Soundcity MVP Awards Festival taking
-            place on the 11th of January 2020, listen to this episode of the
-            [...]
-          </p>
-        </section>
-        <a href="#" class="read__more" data-scroll>Read More</a>
-      </article>
-      <article>
-        <header>
-          <div class="article__date" data-scroll>
-            <span class="day">15</span><span class="month">March</span><span class="year">2022</span>
-          </div>
-          <h2 class="article__title" data-scroll>
-            <a href="#" rel="bookmark">Road to SMVP Podcast – Episode Three – How to win a VIP
-              ticket?</a>
-          </h2>
-          <div class="separator" data-scroll>✻</div>
-        </header>
-        <section class="article__content">
-          <p data-scroll>
-            Want to win tickets to the Soundcity MVP Awards Festival taking
-            place on the 11th of January 2020, listen to this episode of the
-            [...]
-          </p>
-        </section>
-        <a href="#" class="read__more" data-scroll>Read More</a>
-      </article>
+    <?php
+    if( have_posts() ) {
+      while( have_posts() ) {
+        the_post();
+        get_template_part("template-parts/content","article")
+        ?>
+      
+        <?php
+      }
+    }
+    ?>
     </div>
   </div>
 

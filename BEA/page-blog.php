@@ -23,7 +23,17 @@
       </div>
       <hr class="separator" />
       <div class="article__showcase">
-        <article class="showcase__container">
+    <?php
+    if( have_posts() ) {
+      while( have_posts() ) {
+        the_post();
+        ?>
+        <h2><?php the_title(); ?></h2>
+        <?php
+      }
+    }
+    ?>
+        <!-- <article class="showcase__container">
           <header>
             <div class="article__date">
               <span class="day">25</span><span class="month">January</span><span class="year">2022</span>
@@ -63,7 +73,7 @@
             </p>
           </section>
           <a href="/blogpage" class="read__more">Read More</a>
-        </article>
+        </article> -->
       </div>
     </div>
   </section>

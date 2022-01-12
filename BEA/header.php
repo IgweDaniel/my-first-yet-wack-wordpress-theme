@@ -19,7 +19,7 @@
     </div>
     <nav data-scroll>
       <ul>
-        <li><a href="/index" class="current nav__link">Home</a></li>
+        <li><a href="/" class="current nav__link">Home</a></li>
         <li><a href="/gallery" class="nav__link">Gallery</a></li>
         <li><a href="/blog" class="nav__link">Blog</a></li>
         <li><a href="/about" class="nav__link">About</a></li>
