@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BEA &mdash; Welcome</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="shortcut icon" href="/svg/Favicon.ico" />
+
+  <script src="https:/cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <link rel="stylesheet" href="https:/cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/locomotive-scroll.min.css" />
+  <script src="https:/cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/locomotive-scroll.min.js"></script>
+</head>
+
+<body id="js-scroll">
+  <header class="header">
+    <div class="logo">
+      <img src="/svg/logowhite.svg" alt="logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/index" class="nav__link">home</a></li>
+        <li><a href="/gallery" class="nav__link">gallery</a></li>
+        <li><a href="/blog" class="nav__link">blog</a></li>
+        <li><a href="/about" class="current nav__link">about</a></li>
+        <li>
+          <a href="/competition" class="nav__link">competition</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <div class="line line__1"></div>
+      <div class="line line__2"></div>
+      <div class="line line__3"></div>
+    </div>
+  </header>
+  <div class="about__container" data-scroll-section>
+    <p data-scroll>
+      BLACK EXCELLENCE AWARDS is an annual award ceremony that recognize and
+      celebrate the achievements and giant strides of people of Black Origin
+      living in The Russian Federation.
+    </p>
+
+    <p data-scroll>
+      BLACK EXCELLENCE AWARDS recognize works from different spheres of life
+      including but not limited to:
+    </p>
+
+    <p class="about__container-link" data-scroll>
+      Education, Entertainment, Fashion, Business Sports, Special Recognition,
+      Humanitarian, Philantropy etc.
+    </p>
+  </div>
+  <div class="cursor__follow"></div>
+  <script src="/js/main.js"></script>
+  <script>
+
+    const scroll = new LocomotiveScroll({
+      el: document.querySelector("#js-scroll"),
+      smooth: true,
+      smoothMobile: true,
+      inertia: 0.75,
+    });
+
+
+    TweenMax.from(".cursor__follow", 2, {
+      delay: 1,
+      opacity: 0,
+    });
+
+    follower = document.querySelector(".cursor__follow");
+
+    posX = 0;
+    posY = 0;
+    mouseX = 0;
+    mouseY = 0;
+
+    TweenMax.to({}, 0.016, {
+      repeat: -1,
+      onRepeat: function () {
+        posX += (mouseX - posX) / 9;
+        posY += (mouseY - posY) / 9;
+
+        TweenMax.set(follower, {
+          css: {
+            left: posX - 40,
+            top: posY - 40,
+          },
+        });
+      },
+    });
+
+    document.addEventListener("mousemove", function (e) {
+      mouseX = e.pageX;
+      mouseY = e.pageY;
+    });
+  </script>
+</body>
+
+</html>

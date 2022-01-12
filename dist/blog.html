@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BEA &mdash; Blog</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="shortcut icon" href="/svg/Favicon.ico" />
+  <link rel="stylesheet" href="https:/cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/locomotive-scroll.min.css" />
+  <script src="https:/cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/locomotive-scroll.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="/svg/logowhite.svg" alt="logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/index" class="nav__link">home</a></li>
+        <li><a href="/gallery" class="nav__link">gallery</a></li>
+        <li><a href="/blog" class="current nav__link">blog</a></li>
+        <li><a href="/about" class="nav__link">about</a></li>
+        <li><a href="/competition" class="nav__link">competition</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <div class="line line__1"></div>
+      <div class="line line__2"></div>
+      <div class="line line__3"></div>
+    </div>
+  </header>
+  <section class="container">
+    <div class="page__content">
+      <div class="page__content-header">
+        <h1 class="title">News</h1>
+        <div class="archive__filter">
+          <div class="categories__menu">
+            <a href="#" class="dropdown__trigger">Categories</a>
+            <ul>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Podcast</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Video</a></li>
+            </ul>
+          </div>
+        </div>
+        <form action="#" class="form__search">
+          <label for="search">Search for:</label>
+          <input class="search__query" type="text" name="search" id="search" placeholder="Search ..."
+            autocomplete="off" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <hr class="separator" />
+      <div class="article__showcase">
+        <article class="showcase__container">
+          <header>
+            <div class="article__date">
+              <span class="day">25</span><span class="month">January</span><span class="year">2022</span>
+            </div>
+            <h2 class="article__title">
+              <a href="#" rel="bookmark">Road to SMVP Podcast – Episode Three – How to win a VIP
+                ticket?</a>
+            </h2>
+            <div class="separator">✻</div>
+          </header>
+          <section class="article__content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+              vitae fugit. Enim necessitatibus, quos libero labore maiores
+              eveniet reprehenderit itaque dolore accusantium magnam eius
+              fugit exercitationem illo esse! Impedit, totam!
+            </p>
+          </section>
+          <a href="/blogpage" class="read__more">Read More</a>
+        </article>
+        <article class="showcase__container">
+          <header>
+            <div class="article__date">
+              <span class="day">25</span><span class="month">January</span><span class="year">2022</span>
+            </div>
+            <h2 class="article__title">
+              <a href="#" rel="bookmark">Road to SMVP Podcast – Episode Three – How to win a VIP
+                ticket?</a>
+            </h2>
+            <div class="separator">✻</div>
+          </header>
+          <section class="article__content">
+            <p>
+              Want to win tickets to the Soundcity MVP Awards Festival taking
+              place on the 11th of January 2020, listen to this episode of the
+              [...]
+            </p>
+          </section>
+          <a href="/blogpage" class="read__more">Read More</a>
+        </article>
+      </div>
+    </div>
+  </section>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+@keyframes line__1 {
+    from {
+        width: 100%;
+        right: 0;
+    }
+
+    to {
+        right: -10px;
+        width: 60%;
+    }
+}
+
+@keyframes line__3 {
+    from {
+        width: 60%;
+        right: -10px;
+    }
+
+    to {
+        right: 0;
+        width: 100%;
+    }
+}
