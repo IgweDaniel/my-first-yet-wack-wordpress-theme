@@ -1,4 +1,4 @@
-<article>
+<article class="<?php echo $args['className']?>">
         <header>
           <div class="article__date" data-scroll>
 

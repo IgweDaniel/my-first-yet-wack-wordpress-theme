@@ -47,17 +47,37 @@
       <a href="/blog" class="showcase__header-link" data-scroll>Go To Blog ➡</a>
     </div>
     <div class="blog__post-container">
-    <?php
-    if( have_posts() ) {
-      while( have_posts() ) {
-        the_post();
-        get_template_part("template-parts/content","article")
-        ?>
-      
-        <?php
-      }
-    }
+        
+    <?php 
+// Define our WP Query Parameters
+  $args = array(
+    'post_type'         => 'post',
+    'posts_per_page'    => 4
+  );
+  $the_query = new WP_Query( $args );
+ ?>
+    
+    
+    <?php 
+     if( have_posts() ) {
+    // Start our WP Query
+    while ($the_query -> have_posts()) : $the_query -> the_post(); 
+    // Display the Post Title with Hyperlink
     ?>
+    
+    
+ <?php 
+    get_template_part("template-parts/content","article");
+   ?>
+    
+    
+    <?php 
+    // Repeat the process and reset once it hits the limit
+    endwhile;
+  }
+    // wp_reset_postdata();
+?>
+    
     </div>
   </div>
 
