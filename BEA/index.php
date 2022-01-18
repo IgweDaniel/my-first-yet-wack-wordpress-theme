@@ -14,12 +14,7 @@
             </ul>
           </div>
         </div>
-        <form action="#" class="form__search">
-          <label for="search">Search for:</label>
-          <input class="search__query" type="text" name="search" id="search" placeholder="Search ..."
-            autocomplete="off" />
-          <button type="submit">Search</button>
-        </form>
+      <?php get_search_form() ?>
       </div>
       <hr class="separator" />
       <div class="article__showcase">
@@ -29,7 +24,7 @@
         the_post();
         get_template_part("template-parts/content","article",array( 'className' => 'showcase__container' ) )
         ?>
-      
+    
         <?php
       }
     }

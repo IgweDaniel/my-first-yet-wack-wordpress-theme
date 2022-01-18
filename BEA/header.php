@@ -18,13 +18,17 @@
       <img src="<?php echo get_template_directory_uri() ?>/svg/logowhite.svg" alt="logo" />
     </div>
     <nav data-scroll>
-      <ul>
-        <li><a href="/" class="current nav__link">Home</a></li>
-        <li><a href="/gallery" class="nav__link">Gallery</a></li>
-        <li><a href="/blog" class="nav__link">Blog</a></li>
-        <li><a href="/about" class="nav__link">About</a></li>
-        <li><a href="/competition" class="nav__link">competition</a></li>
-      </ul>
+   <ul>
+   <?php 
+        wp_nav_menu( array( 
+          'theme_location' => 'my-custom-menu', 
+          'container_class' => 'custom-menu-class',
+          'walker'=>new Custom_Walker_Nav_Menu_top()
+           ) ); 
+          
+      ?>
+   </ul>
+    
     </nav>
     <div class="hamburger">
       <div class="line line__1"></div>
