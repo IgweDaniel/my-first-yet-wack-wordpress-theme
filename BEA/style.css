@@ -37,20 +37,20 @@ Author URI: Your website address.
 
 @font-face {
   font-family: "Circular Std Book";
-  src: url("../../public/fonts/CircularStd-Book.woff") format("woff");
+  src: url("fonts/CircularStd-Book.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "D-DIN Condensed";
-  src: url("../../public/fonts/D-DINCondensed-Bold.woff") format("woff");
+  src: url("fonts/D-DINCondensed-Bold.woff") format("woff");
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mark Pro";
-  src: url("../../public/fonts/MarkPro-Heavy.woff") format("woff");
+  src: url("fonts/MarkPro-Heavy.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -463,16 +463,16 @@ Author URI: Your website address.
   background-repeat: no-repeat;
 }
 .gallery__snippet .snippet__images .snippet__image-container .snippet__image-1 {
-  background-image: url("../../public/webp/IMG_9879.webp");
+  background-image: url("webp/IMG_9879.webp");
 }
 .gallery__snippet .snippet__images .snippet__image-container .snippet__image-2 {
-  background-image: url("../../public/webp/IMG_4057.webp");
+  background-image: url("webp/IMG_4057.webp");
 }
 .gallery__snippet .snippet__images .snippet__image-container .snippet__image-3 {
-  background-image: url("../../public/webp/IMG_4524.webp");
+  background-image: url("webp/IMG_4524.webp");
 }
 .gallery__snippet .snippet__images .snippet__image-container .snippet__image-4 {
-  background-image: url("../../public/webp/IMG_5010.webp");
+  background-image: url("webp/IMG_5010.webp");
 }
 
 .blog__showcase {
@@ -717,7 +717,7 @@ footer.home__footer .footer__container .news__later input[type="submit"] {
 
 .cursor__follow {
   position: absolute;
-  background: url("../../public/svg/logowhite.svg") no-repeat 50% 50%;
+  background: url("/svg/logowhite.svg") no-repeat 50% 50%;
   background-size: cover;
   width: 320px;
   height: 200px;

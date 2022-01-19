@@ -22,7 +22,7 @@
   <div class="gallery__snippet">
     <div class="snippet__header">
       <h2 class="snippet__header-text" data-scroll>Gallery Snippet</h2>
-      <a href="#" class="snippet__header-link" data-scroll>View Gallery ➡</a>
+      <a href="/gallery" class="snippet__header-link" data-scroll>View Gallery ➡</a>
     </div>
     <div class="snippet__images" data-scroll>
       <div class="snippet__image-container">
