@@ -18,7 +18,7 @@ while ( have_posts() ) :
            
             <?php   the_content(); ?>
             </div>
-            <img src="/webp/IMG_0041.webp" alt="" />
+  
             <div class="share__post">
               <div class="share__post-inner">
                 <h3 class="share__title" data-scroll>Share This</h3>
