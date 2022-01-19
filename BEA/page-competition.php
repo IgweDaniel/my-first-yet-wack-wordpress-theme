@@ -3,7 +3,4 @@
     <img src="<?php echo get_template_directory_uri() ?>/jpg/competition.jpg" alt="competition flyer">
     <a href="https:/forms.gle/JaQUR8hDxcKfYvWt6" target="_blank">Click here to register</a>
   </div>
-  <script src="<?php echo get_template_directory_uri() ?>/js/main.js"></script>
-</body>
-
-</html>
+  <?php get_footer(); ?>

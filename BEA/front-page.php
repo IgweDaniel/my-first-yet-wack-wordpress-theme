@@ -1,4 +1,8 @@
 <?php get_header(); ?>
+
+
+ 
+
   <div class="showcase__wrapper">
     <div class="showcase">
       <div class="showcase__hero">
@@ -69,49 +73,14 @@
  <?php 
     get_template_part("template-parts/content","article");
    ?>
-    
-    
     <?php 
-    // Repeat the process and reset once it hits the limit
     endwhile;
   }
-    // wp_reset_postdata();
+    
 ?>
     
     </div>
   </div>
 
   <!-- Footer Section -->
-  <footer class="home__footer">
-    <div class="footer__container">
-      <div class="media__links" data-scroll>
-        <ul>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-        </ul>
-      </div>
-      <div class="news__later">
-        <p class="news__later-text" data-scroll>
-          Subscribe to our newslater!
-        </p>
-        <form action="">
-          <input type="text" name="newslater" id="newslater" placeholder="Enter Email" />
-          <input type="submit" value="Submit" />
-        </form>
-      </div>
-    </div>
-  </footer>
-  <script src="<?php echo get_template_directory_uri() ?>/js/main.js"></script>
-  <script>
-    // smooth scroll
-    const scroll = new LocomotiveScroll({
-      el: document.querySelector("#js-scroll"),
-      smooth: true,
-      smoothMobile: true,
-      inertia: 0.75,
-    });
-  </script>
-</body>
-
-</html>
+  <?php get_footer("main"); ?>
