@@ -2,7 +2,7 @@
 Theme Name: Replace with your Theme's name.
 Theme URI: Your Theme's URI
 Description: A brief description.
-Version: 2.0
+Version: 3.0
 Author: You
 Author URI: Your website address.
 */
@@ -37,20 +37,20 @@ Author URI: Your website address.
 
 @font-face {
   font-family: "Circular Std Book";
-  src: url(".//fonts/CircularStd-Book.woff") format("woff");
+  src: url("../../public/fonts/CircularStd-Book.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "D-DIN Condensed";
-  src: url(".//fonts/D-DINCondensed-Bold.woff") format("woff");
+  src: url("../../public/fonts/D-DINCondensed-Bold.woff") format("woff");
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Mark Pro";
-  src: url(".//fonts/MarkPro-Heavy.woff") format("woff");
+  src: url("../../public/fonts/MarkPro-Heavy.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -463,16 +463,16 @@ Author URI: Your website address.
   background-repeat: no-repeat;
 }
 .gallery__snippet .snippet__images .snippet__image-container .snippet__image-1 {
-  background-image: url(".//webp/IMG_9879.webp");
+  background-image: url("../../public/webp/IMG_9879.webp");
 }
 .gallery__snippet .snippet__images .snippet__image-container .snippet__image-2 {
-  background-image: url(".//webp/IMG_4057.webp");
+  background-image: url("../../public/webp/IMG_4057.webp");
 }
 .gallery__snippet .snippet__images .snippet__image-container .snippet__image-3 {
-  background-image: url(".//webp/IMG_4524.webp");
+  background-image: url("../../public/webp/IMG_4524.webp");
 }
 .gallery__snippet .snippet__images .snippet__image-container .snippet__image-4 {
-  background-image: url(".//webp/IMG_5010.webp");
+  background-image: url("../../public/webp/IMG_5010.webp");
 }
 
 .blog__showcase {
@@ -717,7 +717,7 @@ footer.home__footer .footer__container .news__later input[type="submit"] {
 
 .cursor__follow {
   position: absolute;
-  background: url(".//svg/logowhite.svg") no-repeat 50% 50%;
+  background: url("../../public/svg/logowhite.svg") no-repeat 50% 50%;
   background-size: cover;
   width: 320px;
   height: 200px;
@@ -943,12 +943,18 @@ section.container .page__content-header .archive__filter {
 section.container .page__content-header .archive__filter .categories__menu {
   margin-top: -20px;
   position: absolute;
-  min-width: 200px;
+  padding: 0 2.5rem;
+  text-transform: uppercase;
   background-color: var(--color-black);
   border: 1px solid var(--color-gray);
   border-radius: 0.3rem;
   cursor: pointer;
   z-index: 10;
+}
+@media screen and (max-width: 900px) {
+  section.container .page__content-header .archive__filter .categories__menu {
+    margin-left: -4rem;
+  }
 }
 section.container
   .page__content-header
@@ -995,6 +1001,11 @@ section.container .page__content-header form {
   border: 1px solid var(--color-gray);
   padding: 5px 10px;
   border-radius: 0.3rem;
+}
+@media screen and (max-width: 900px) {
+  section.container .page__content-header form {
+    padding: 3px;
+  }
 }
 @media screen and (max-width: 700px) {
   section.container .page__content-header form {
@@ -1295,6 +1306,7 @@ section.container .article__showcase a.read__more {
 }
 .container .page__content-wrapper article .comments__area {
   min-height: 15rem;
+  margin-bottom: 2rem;
 }
 .container .page__content-wrapper article .comments__area-header {
   margin-right: 6px;
@@ -1344,7 +1356,7 @@ section.container .article__showcase a.read__more {
   .comment__list
   li.comment
   article {
-  min-height: 170px;
+  height: 170px;
   position: relative;
 }
 .container
@@ -1567,21 +1579,64 @@ section.container .article__showcase a.read__more {
   font-size: 1rem;
   line-height: 0 !important;
 }
-.container .side__bar #categories .title {
-  font-size: 1.5rem;
+.container .side__bar .categories__menu {
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-gray);
+  border-radius: 0.3rem;
+  cursor: pointer;
+  z-index: 10;
+}
+.container .side__bar .categories__menu .dropdown__trigger {
+  font-size: 1.2rem;
   color: var(--color-gray);
-  font-weight: lighter;
-  margin-top: 20px;
+  text-decoration: none;
 }
-.container .side__bar #categories form label {
+.container .side__bar .categories__menu ul {
   display: none;
+  transition: all 0.5s ease-in-out;
 }
-.container .side__bar #categories form select {
+.container .side__bar .categories__menu ul li {
+  list-style: none;
+}
+.container .side__bar .categories__menu ul li a {
+  color: var(--color-gray);
+  font-size: 1rem;
+  text-decoration: none;
+}
+.container .side__bar .categories__menu:hover ul {
+  display: block;
+}
+
+.block {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.block .image__block {
+  width: 400px;
+  height: 400px;
+}
+@media screen and (max-width: 400px) {
+  .block .image__block {
+    width: 250px;
+    height: 250px;
+  }
+}
+.block .image__block svg {
   width: 100%;
-  max-width: 100%;
-  padding: 0.625rem;
-  outline: none;
-  background: var(--color-gray);
+  height: 100%;
+}
+.block p {
+  font-size: 1.2rem;
+}
+.block a {
+  color: var(--color-gray);
+  font-size: 1rem;
 }
 
 *,
@@ -1612,5 +1667,3 @@ body {
     overflow-x: hidden;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

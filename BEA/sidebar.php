@@ -44,18 +44,16 @@
         </ul>
       </div>
       <hr class="separator" />
+      
       <div id="categories" data-scroll>
-        <h4 class="title">Categories</h4>
-        <form action="" method="get">
-          <label for="category">Categories</label>
-          <select name="category" id="category">
-            <option value="-1">Select Category</option>
-            <option value="1">News</option>
-            <option value="43">Podcast</option>
-            <option value="17">Press</option>
-            <option value="19">Video</option>
-          </select>
-        </form>
-      </div>
-      <hr class="separator" />
+          <div class="categories__menu">
+            <a href="#" class="dropdown__trigger">Categories</a>
+              <?php 
+              wp_nav_menu( array( 
+                'theme_location' => 'extra-menu', 
+                ) ); 
+                 ?>
+           
+          </div>
+        </div>
     </aside>

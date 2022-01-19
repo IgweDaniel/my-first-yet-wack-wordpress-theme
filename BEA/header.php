@@ -18,16 +18,16 @@
       <img src="<?php echo get_template_directory_uri() ?>/svg/logowhite.svg" alt="logo" />
     </div>
     <nav data-scroll>
-   <ul>
-   <?php 
-        wp_nav_menu( array( 
-          'theme_location' => 'my-custom-menu', 
-          'container_class' => 'custom-menu-class',
-          'walker'=>new Custom_Walker_Nav_Menu_top()
-           ) ); 
-          
-      ?>
-   </ul>
+      <ul>
+      <?php 
+            wp_nav_menu( array( 
+              'theme_location' => 'my-custom-menu', 
+              'container_class' => 'custom-menu-class',
+              'walker'=>new Custom_Walker_Nav_Menu_top()
+              ) ); 
+              
+          ?>
+      </ul>
     
     </nav>
     <div class="hamburger">
