@@ -19,7 +19,7 @@
             <a href="#" class="dropdown__trigger"><?php   echo  $categories->name; ?></a>
             <?php 
               wp_nav_menu( array( 
-                'theme_location' => 'extra-menu', 
+                'theme_location' => 'categories', 
         
                 ) ); 
         

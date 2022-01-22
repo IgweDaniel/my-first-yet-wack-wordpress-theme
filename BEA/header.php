@@ -21,7 +21,7 @@
       <ul>
       <?php 
             wp_nav_menu( array( 
-              'theme_location' => 'my-custom-menu', 
+              'theme_location' => 'nav', 
               'container_class' => 'custom-menu-class',
               'walker'=>new Custom_Walker_Nav_Menu_top()
               ) ); 

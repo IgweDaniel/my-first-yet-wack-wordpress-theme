@@ -15,7 +15,6 @@
                 wp_list_comments(
                     array(
                         'walker' => new Custom_Walker_Comment(),
-                        // 'short_ping'  => true,
                     
                     )
                 );
