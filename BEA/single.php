@@ -97,4 +97,4 @@ while ( have_posts() ) :
 endwhile; 
 ?>
   
-  <?php get_footer("main"); ?>
+  <?php get_footer(); ?>
