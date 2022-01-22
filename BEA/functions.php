@@ -1,6 +1,28 @@
 <?php
 
 
+// function redirect_direct_access( ) {
+//   $site_url=get_site_url();
+//   echo "Hello";
+//   // wp_redirect( '/home' );
+//   // $post_id = get_the_ID();
+
+//   // if ( $post_id == POST_ID && !isset( $_GET[ 'voluumdata' ] ) ) { 
+//       // exit();
+//   // }
+// }
+
+// add_action( 'template_redirect', 'redirect_direct_access' );
+
+function custom_mailpoet_shortcode($atts){
+  // return 'howdy';
+  $site_url=get_site_url();
+  if(! is_admin()){
+    wp_redirect( '/' );
+  }
+}
+add_shortcode('mailpoet_page','custom_mailpoet_shortcode');
+
 if($_REQUEST['subscribe_me'] == 'Submit') {
   $email = $_POST['email'];
  

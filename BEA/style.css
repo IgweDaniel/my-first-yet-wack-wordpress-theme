@@ -1,12 +1,11 @@
 /*
-Theme Name: Replace with your Theme's name.
+Theme Name: BEA.
 Theme URI: Your Theme's URI
 Description: A brief description.
-Version: 3.0
+Version: 4.0
 Author: You
 Author URI: Your website address.
 */
-
 @charset "UTF-8";
 @keyframes line__1 {
   from {
@@ -31,7 +30,7 @@ Author URI: Your website address.
 :root {
   --color-white: #ffffff;
   --color-gray: #d6e1ef;
-  --color-black: #191c1f;
+  --color-black: #0f0f0f;
   --color-yellow: #ffcc5c;
 }
 
@@ -1311,6 +1310,7 @@ section.container .article__showcase a.read__more {
 .container .page__content-wrapper article .comments__area {
   min-height: 15rem;
   margin-bottom: 2rem;
+  padding-left: 1rem;
 }
 .container .page__content-wrapper article .comments__area-header {
   margin-right: 6px;
@@ -1618,6 +1618,100 @@ section.container .article__showcase a.read__more {
   display: block;
 }
 
+.awards__container {
+  width: 90%;
+  margin: 40px auto;
+}
+.awards__container ul {
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.awards__container ul li {
+  list-style: none;
+  height: 180px;
+  width: 180px;
+  text-align: center;
+}
+.awards__container ul li img {
+  width: 100%;
+  height: 100%;
+}
+.awards__container ul li span {
+  display: block;
+  font-family: "D-DIN Condensed", sans-serif;
+}
+.awards__container ul li span.name {
+  font-size: 1.3rem;
+  color: var(--color-gray);
+}
+.awards__container ul li span.position {
+  font-size: 1rem;
+  color: var(--color-gray);
+}
+.awards__container ul li span.position.winner {
+  font-size: 1rem;
+  color: #fabe19;
+}
+
+.acc__block {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+.acc__block .acc {
+  color: var(--color-gray);
+  font-size: 2.5rem;
+}
+@media screen and (max-width: 700px) {
+  .acc__block .acc {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .acc__block .acc {
+    font-size: 0.8rem;
+  }
+}
+.acc__block .acc__title {
+  color: var(--color-gray);
+  font-size: 2.5rem;
+}
+@media screen and (max-width: 900px) {
+  .acc__block .acc__title {
+    text-align: center;
+    margin-left: 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .acc__block .acc__title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .acc__block .acc__title {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+}
+.acc__block .acc__toggle-icon {
+  color: var(--color-gray);
+}
+
+[data-collapse] {
+  cursor: pointer;
+}
+
+.heightzero {
+  height: 0;
+}
+
 .block {
   height: 100vh;
   width: 100vw;
@@ -1648,6 +1742,82 @@ section.container .article__showcase a.read__more {
   font-size: 1rem;
 }
 
+.sub__container {
+  width: 70%;
+  margin: 30px auto;
+}
+.sub__container .news {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.sub__container p.pause {
+  font-size: 1.2rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+.sub__container .more__info {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.sub__container form {
+  margin: 30px auto;
+  padding: 0 17rem;
+  color: var(--color-gray);
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1000px) {
+  .sub__container form {
+    padding: 0 7rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .sub__container form {
+    padding: 0 8rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .sub__container form {
+    padding: 0;
+  }
+}
+.sub__container form label {
+  font-size: 1rem;
+}
+.sub__container form input[type="text"] {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--color-gray);
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  color: var(--color-gray);
+}
+.sub__container form select {
+  background-color: var(--color-dark);
+  color: var(--color-gray);
+  outline: none;
+  border: 1px solid var(--color-gray);
+  padding: 0.5rem;
+}
+.sub__container form select option {
+  background-color: var(--color-dark);
+  padding: 0.5rem;
+}
+.sub__container form .lists {
+  margin-top: 0.8rem;
+}
+.sub__container form input[type="submit"] {
+  margin: 0.5rem auto;
+  width: 8rem;
+  padding: 0.6em 0.8em;
+  background: transparent;
+  color: var(--color-gray);
+  outline: none;
+  border: 1px solid var(--color-gray);
+}
+
 *,
 *::before,
 *::after {
@@ -1676,5 +1846,3 @@ body {
     overflow-x: hidden;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

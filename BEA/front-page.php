@@ -1,8 +1,4 @@
 <?php get_header(); ?>
-
-
- 
-
   <div class="showcase__wrapper">
     <div class="showcase">
       <div class="showcase__hero">
