@@ -6,6 +6,7 @@ Version: 4.0
 Author: You
 Author URI: Your website address.
 */
+
 @charset "UTF-8";
 @keyframes line__1 {
   from {
@@ -80,7 +81,7 @@ Author URI: Your website address.
 }
 
 #js-scroll {
-  height: 200%;
+  height: 100%;
 }
 
 .header {
@@ -119,7 +120,7 @@ Author URI: Your website address.
     top: 0;
     right: 0;
     height: 100%;
-    min-width: 100%;
+    width: 100%;
     background: var(--color-white);
     display: flex;
     align-items: center;
@@ -462,16 +463,16 @@ Author URI: Your website address.
   background-repeat: no-repeat;
 }
 .gallery__snippet .snippet__images .snippet__image-container .snippet__image-1 {
-  background-image: url("webp/IMG_9879.webp");
+  background-image: url("jpg/IMG_4459.jpg");
 }
 .gallery__snippet .snippet__images .snippet__image-container .snippet__image-2 {
-  background-image: url("webp/IMG_4057.webp");
+  background-image: url("jpg/IMG_4057.jpg");
 }
 .gallery__snippet .snippet__images .snippet__image-container .snippet__image-3 {
-  background-image: url("webp/IMG_4524.webp");
+  background-image: url("jpg/IMG_4524.jpg");
 }
 .gallery__snippet .snippet__images .snippet__image-container .snippet__image-4 {
-  background-image: url("webp/IMG_5010.webp");
+  background-image: url("jpg/IMG_5010.jpg");
 }
 
 .blog__showcase {
@@ -528,7 +529,7 @@ Author URI: Your website address.
   width: 100%;
   min-height: 100%;
   margin-top: 1.5rem;
-  padding: 1rem 2rem;
+  padding: 1rem 2em;
 }
 .blog__showcase .blog__post-container article {
   min-height: 15rem;
@@ -578,11 +579,20 @@ Author URI: Your website address.
   color: var(--color-gray);
 }
 .blog__showcase .blog__post-container article .article__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   color: var(--color-gray);
   font-size: 1rem;
   text-overflow: ellipsis;
   padding: 0 1rem;
+}
+.blog__showcase .blog__post-container article .article__content img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 0.7rem;
 }
 .blog__showcase .blog__post-container a.read__more {
   display: inline-block;
@@ -684,13 +694,15 @@ footer.home__footer .footer__container .news__later input[type="submit"] {
 }
 
 .about__container {
-  width: 50%;
-  margin: 50px 0 100px 80px;
-  padding: 40px;
+  width: 100%;
+  padding: 0 4em;
+  display: flex;
+  gap: 30px;
 }
 @media screen and (max-width: 900px) {
   .about__container {
-    width: 80%;
+    width: 100%;
+    flex-direction: column-reverse;
     padding: 30px;
     margin: 30px auto;
   }
@@ -698,36 +710,44 @@ footer.home__footer .footer__container .news__later input[type="submit"] {
 @media screen and (max-width: 700px) {
   .about__container {
     padding: 20px;
+    margin: 0;
   }
 }
-.about__container p {
-  margin: 60px 0;
+.about__container .paragraph__section {
+  width: 50%;
+}
+@media screen and (max-width: 900px) {
+  .about__container .paragraph__section {
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+  }
+}
+.about__container .paragraph__section p {
+  margin: 40px 0;
   color: #fff;
   font-size: 2.6rem;
   font-weight: 400;
   z-index: 2;
 }
 @media screen and (max-width: 700px) {
-  .about__container p {
-    margin: 30px 0;
+  .about__container .paragraph__section p {
     font-size: 1.5rem;
   }
 }
-
-.cursor__follow {
-  position: absolute;
-  background: url("svg/logowhite.svg") no-repeat 50% 50%;
+.about__container .image__section {
+  height: 70vh;
+  width: 50%;
+  margin-top: 40px;
+  background: url("jpg/Black-is-king-1024x1024.png");
+  background-position: center;
   background-size: cover;
-  width: 320px;
-  height: 200px;
-  z-index: 1;
-  user-select: none;
-  pointer-events: none;
-  transform: translate(5px, 5px);
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 900px) {
-  .cursor__follow {
-    display: none;
+  .about__container .image__section {
+    width: 100%;
+    height: 20rem;
   }
 }
 
@@ -1360,7 +1380,6 @@ section.container .article__showcase a.read__more {
   .comment__list
   li.comment
   article {
-  height: 170px;
   position: relative;
 }
 .container
@@ -1758,7 +1777,6 @@ section.container .article__showcase a.read__more {
 .sub__container .more__info {
   text-align: center;
   font-size: 1.1rem;
-  color: #fff;
 }
 .sub__container form {
   margin: 30px auto;

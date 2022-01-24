@@ -1,455 +1,671 @@
 <?php get_header(); ?>
   <main>
-    <div class="gallery">
-      <div class="gallery__column">
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_0028.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_0041.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
+  <div class="gallery">
+        <div class="gallery__column">
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_0028.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+			        </figcaption>
+		    </div>
+        	<div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_0041.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_0127.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+				        BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_0188.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+				        BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4057.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+				        BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4063.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+				        BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4068.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+				        BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4073.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+				        BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4076.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+				        BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4079.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+				        BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4090.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+				        BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4092.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+				        BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4103.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+				        BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
         </div>
 
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_0127.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
+        <div class="gallery__column">
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4113.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4120.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4141.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+    			      BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4150.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+    			      BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4158.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+    			      BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4172.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+    			      BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4175.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+    			      BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4188.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+    			      BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4213.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+    			      BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4218.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+    			      BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4221.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+    			      BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4241.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+    			      BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4264.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+    			      BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
         </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_0188.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
+
+        <div class="gallery__column">
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4268.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4320.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4360.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4366.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4459.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4477.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4524.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4555.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4662.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4707.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4716.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4803.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4819.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+        		    BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
         </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4057.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4063.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4068.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4073.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4076.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4079.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4090.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4092.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4103.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
+
+        <div class="gallery__column">
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4856.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4865.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+    		      	BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4889.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4895.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4972.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4978.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_4991.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_5010.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_5014.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_5048.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_9821.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_9846.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_9876.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_9879.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery__link">
+            <figure class="gallery__thumb">
+              <img
+                src="<?php echo get_template_directory_uri(  ) ?>/jpg/IMG_9891.jpg"
+                alt=""
+                class="gallery__image"
+              />
+              <figcaption class="gallery__caption">
+                BEA Award Night
+              </figcaption>
+            </figure>
+          </div>
         </div>
       </div>
-
-      <div class="gallery__column">
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4113.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4120.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4141.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4150.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4158.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4172.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4175.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4188.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4213.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4218.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4221.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4241.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4264.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-
-      <div class="gallery__column">
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4268.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4320.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4360.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4366.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4459.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4477.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4524.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4555.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4662.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4707.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4716.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4803.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4819.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-
-      <div class="gallery__column">
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4856.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4865.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4889.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4895.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4972.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4978.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_4991.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_5010.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_5014.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_5048.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_9821.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_9846.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_9876.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_9879.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-        <div class="gallery__link">
-          <figure class="gallery__thumb">
-            <img src="<?php echo get_template_directory_uri() ?>/webp/IMG_9891.webp" alt="" class="gallery__image" />
-            <figcaption class="gallery__caption">
-              BEA Award Night
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </div>
   </main>
   <?php get_footer("gallery"); ?>

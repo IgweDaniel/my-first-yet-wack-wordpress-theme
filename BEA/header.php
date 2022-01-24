@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BEA &mdash; Welcome</title>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/style.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css" />
+
   <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/svg/Favicon.ico" />
-  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
+
 </head>
 
 <body id="js-scroll" data-scroll-section>

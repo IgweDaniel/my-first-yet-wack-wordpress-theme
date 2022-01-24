@@ -1,12 +1,6 @@
 <script src="<?php echo get_template_directory_uri() ?>/js/main.js"></script>
   <script>
 
-    const scroll = new LocomotiveScroll({
-      el: document.querySelector("#js-scroll"),
-      smooth: true,
-      smoothMobile: true,
-      inertia: 0.75,
-    });
 
 
     TweenMax.from(".cursor__follow", 2, {

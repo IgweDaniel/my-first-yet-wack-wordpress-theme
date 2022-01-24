@@ -7,12 +7,12 @@
           <?php 
            $category = get_the_category();
            $categories = get_category($category[0]);
-           if(!is_search() && !is_category()){
+           if(!is_category()){
              $categories = get_category(get_option('default_category'));
              
           }
 
-            echo  $categories ->name;
+          echo  $categories ->name;
            ?></h1>
         <div class="archive__filter">
           <div class="categories__menu">
