@@ -49,10 +49,12 @@
           <div class="categories__menu">
             <a href="#" class="dropdown__trigger">Categories</a>
               <?php 
-              wp_nav_menu( array( 
+               wp_nav_menu( array( 
                 'theme_location' => 'categories', 
+        
                 ) ); 
                  ?>
+                 
            
           </div>
         </div>
