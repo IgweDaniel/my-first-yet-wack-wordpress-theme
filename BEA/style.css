@@ -2,7 +2,7 @@
 Theme Name: BEA.
 Theme URI: Your Theme's URI
 Description: A brief description.
-Version: 8.0
+Version: 12.0
 Author: You
 Author URI: Your website address.
 */
@@ -230,7 +230,7 @@ Author URI: Your website address.
 }
 @media screen and (max-width: 700px) {
   .showcase__wrapper {
-    min-height: 100vh;
+    min-height: 50vh;
   }
 }
 
@@ -402,6 +402,11 @@ Author URI: Your website address.
     font-size: 1.3rem;
   }
 }
+@media screen and (max-width: 500px) {
+  .gallery__snippet .snippet__header-text {
+    font-size: 1rem;
+  }
+}
 .gallery__snippet .snippet__header-link {
   font: "Mark Pro", sans-serif;
   font-size: 1rem;
@@ -411,6 +416,11 @@ Author URI: Your website address.
   color: var(--color-white);
   transition: all 0.3s ease;
   letter-spacing: 1px;
+}
+@media screen and (max-width: 500px) {
+  .gallery__snippet .snippet__header-link {
+    font-size: 1rem;
+  }
 }
 .gallery__snippet .snippet__header-link::after {
   content: "";
@@ -502,6 +512,11 @@ Author URI: Your website address.
     font-size: 1.3rem;
   }
 }
+@media screen and (max-width: 500px) {
+  .blog__showcase-header .showcase__header-text {
+    font-size: 1rem;
+  }
+}
 .blog__showcase-header .showcase__header-link {
   font: "Mark Pro", sans-serif;
   font-size: 1rem;
@@ -511,6 +526,11 @@ Author URI: Your website address.
   color: var(--color-white);
   transition: all 0.5s ease;
   letter-spacing: 1px;
+}
+@media screen and (max-width: 500px) {
+  .blog__showcase-header .showcase__header-link {
+    font-size: 1rem;
+  }
 }
 .blog__showcase-header .showcase__header-link::after {
   content: "";
@@ -530,6 +550,11 @@ Author URI: Your website address.
   min-height: 100%;
   margin-top: 1.5rem;
   padding: 1rem 2em;
+}
+@media screen and (max-width: 500px) {
+  .blog__showcase .blog__post-container {
+    padding: 0;
+  }
 }
 .blog__showcase .blog__post-container article {
   min-height: 15rem;
@@ -592,7 +617,7 @@ Author URI: Your website address.
 .blog__showcase .blog__post-container article .article__content img {
   width: 150px;
   height: 150px;
-  margin-bottom: 0.7rem;
+  margin: 0.7rem 0;
 }
 .blog__showcase .blog__post-container a.read__more {
   display: inline-block;
@@ -907,6 +932,7 @@ p {
   position: relative;
 }
 .gallery__image {
+  background: #f1f1fa;
   display: block;
   width: 100%;
   transition: 0.3s;
@@ -1067,6 +1093,11 @@ section.container
   article.showcase__container:not(:last-of-type) {
   margin-bottom: 1rem;
 }
+@media screen and (max-width: 500px) {
+  section.container .article__showcase article.showcase__container {
+    padding: 0;
+  }
+}
 section.container .article__showcase article.showcase__container header {
   display: flex;
   flex-flow: column nowrap;
@@ -1126,6 +1157,15 @@ section.container
   color: var(--color-gray);
   font-size: 1rem;
   text-overflow: ellipsis;
+}
+section.container
+  .article__showcase
+  article.showcase__container
+  .article__content
+  img {
+  margin-top: 1rem;
+  width: 250px;
+  height: 250px;
 }
 section.container .article__showcase a.read__more {
   display: inline-block;

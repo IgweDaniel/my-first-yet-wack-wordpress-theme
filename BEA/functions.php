@@ -1,18 +1,48 @@
 <?php
 
+function post_title_shortcode(){
+  return get_the_title();
+}
+add_shortcode('post_title','post_title_shortcode');
 
-// function redirect_direct_access( ) {
-//   $site_url=get_site_url();
-//   echo "Hello";
-//   // wp_redirect( '/home' );
-//   // $post_id = get_the_ID();
+function theme_setup(){
+  // add_theme_support("post-thumbnails");
+  // add_theme_support("custom-logo");
+  add_theme_support("title-tag");
+    
+}
+add_action("after_setup_theme","theme_setup");
 
-//   // if ( $post_id == POST_ID && !isset( $_GET[ 'voluumdata' ] ) ) { 
-//       // exit();
-//   // }
-// }
+add_filter('document_title_separator', 'cyb_change_document_title_separator');
+function cyb_change_document_title_separator ( $sep ) {
 
-// add_action( 'template_redirect', 'redirect_direct_access' );
+    return "--";
+
+}
+
+
+
+add_filter( 'document_title_parts', function( $title_parts ) {
+ 
+  if(!is_front_page()){
+    $title_parts['title'] = 'BEA';
+    $title_parts['tagline']="";
+    if(is_home() ){
+      $title_parts['site'] = "Blog"; 
+      
+    }else{
+      
+      $title_parts['site'] = ucfirst(get_the_title());
+    }
+  }
+
+
+
+  return $title_parts;
+  
+} );
+
+
 
 function custom_mailpoet_shortcode($atts){
   // return 'howdy';

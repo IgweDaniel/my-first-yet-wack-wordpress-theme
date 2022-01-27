@@ -10,13 +10,11 @@
         the_post();
     ?> 
        
-       <div class="sub__container">
-      <div class="news">
-        <h1>   <?php   the_title(); ?></h1>
-    </div>
-         <div class="more__info"><?php   the_content(); ?></div>    
-    </div>
-  
+       <main>
+           
+           <?php   the_content(); ?>
+
+       </main>  
         <?php
     
     endwhile; 

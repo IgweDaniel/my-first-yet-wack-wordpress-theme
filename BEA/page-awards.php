@@ -349,12 +349,7 @@
     ></script>
     <script>
       // smooth scroll
-      const scroll = new LocomotiveScroll({
-        el: document.querySelector("#js-scroll"),
-        smooth: true,
-        smoothMobile: true,
-        inertia: 0.75,
-      });
+ 
 
       let parent = document.querySelectorAll("[data-collapse]");
       parent.forEach((el) => {
