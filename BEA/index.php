@@ -36,8 +36,10 @@
     if( have_posts() ) {
       if(!is_search() && !is_category()){
         query_posts(array('cat'=>get_option('default_category'), 'posts_per_page'=>'4'));
+      }else{
+
+        query_posts(array('posts_per_page'=>'4' ));
       }
-      // query_posts( 'category_ID='.get_option('default_category').'&posts_per_page=10' );
       while( have_posts() ) {
         the_post();
         get_template_part("template-parts/content","article",array( 'className' => 'showcase__container' ) )
