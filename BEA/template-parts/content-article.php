@@ -24,7 +24,7 @@
          
             <div data-scroll>    
                 <?php
-                    the_content()
+                    the_excerpt()
                 ?>
             </div>
       
